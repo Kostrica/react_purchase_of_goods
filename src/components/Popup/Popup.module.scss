@@ -1,0 +1,138 @@
+.popup {
+  position: relative;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 0;
+  left: 310px;
+}
+
+.crossIcon:hover {
+  cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.category {
+  margin-bottom: 2%;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.name {
+  margin-bottom: 5%;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.name::first-letter {
+  text-transform: uppercase;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.price {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 400;
+}
+
+.currency {
+  font-size: 30px;
+  margin-right: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  position: relative;
+  margin: 0 10%;
+  padding: 0;
+  height: 75px;
+}
+
+.input {
+  padding: 0 4%;
+  height: 50px;
+  width: 91%;
+  font-size: 16px;
+  border: 2px solid #E5E5E5;
+  border-radius: 16px;
+}
+
+.input:hover {
+  border: 2px solid #4BCFA0;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #4BCFA0;
+}
+
+.button {
+  margin: 5% 10% 15%;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #4BCFA0;
+  border-radius: 16px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px 1px #E5E5E5;
+}
+
+.arrow {
+  display: none;
+  font-size: 20px;
+}
+
+.button:hover > .arrow {
+  display: inline-block;
+}
+
+.error {
+  border: 2px solid #E43F3F;
+}
+
+.crossRedIcon {
+  position: relative;
+  top: -40px;
+  left: 88%;
+  margin: 0;
+  padding: 0;
+}
+
+.errorMessage {
+  padding: 0;
+  margin-top: -10%;
+  font-size: 12px;
+  line-height: 16px;
+  color: #E43F3F;
+}

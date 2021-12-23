@@ -1,0 +1,7 @@
+export const SET_CARDS = 'SET_CARDS';
+export const SET_GOOD_MIN_PRICE = 'SET_GOOD_MIN_PRICE';
+
+export const USER_DATA_TYPES = {
+  SET_USER_NAME: 'SET_USER_NAME',
+  SET_USER_PHONE: 'SET_USER_PHONE',
+};

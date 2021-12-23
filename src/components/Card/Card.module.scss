@@ -1,0 +1,125 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 352px;
+  height: 256px;
+  margin: 20px;
+  padding: 32px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.category {
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.name {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.name::first-letter {
+  text-transform: uppercase;
+}
+
+.infoBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 400;
+}
+
+.currency {
+  font-size: 30px;
+  margin-right: 4px;
+}
+
+.notActiveButton {
+  position: relative;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-radius: 16px;
+  color: #4BCFA0;
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+}
+
+.notActiveButton:hover {
+  cursor: pointer;
+  bottom: -2px;
+  right: -5px;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px 1px #E5E5E5;
+}
+
+.activeButton {
+  position: relative;
+  padding: 16px;
+  bottom: -2px;
+  right: -5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #4BCFA0;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 2px 2px 5px 1px #E5E5E5;
+  animation-duration: 0.1s;
+  animation-name: pressing;
+}
+
+@keyframes pressing {
+  from {
+    bottom: 0;
+    right: 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  to {
+    bottom: -2px;
+    right: -5px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px 1px #E5E5E5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 5px;
+  }
+}
