@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react_purchase_of_goods/static/css/main.7c93d64d.css",
+    "main.js": "/react_purchase_of_goods/static/js/main.bb838939.js",
+    "static/js/787.9cb4c75f.chunk.js": "/react_purchase_of_goods/static/js/787.9cb4c75f.chunk.js",
+    "static/media/cancel-close-svgrepo-com.svg": "/react_purchase_of_goods/static/media/cancel-close-svgrepo-com.d1eca6e352c7574a8a625f5615e8fdb7.svg",
+    "static/media/cancel-svgrepo-com.svg": "/react_purchase_of_goods/static/media/cancel-svgrepo-com.727732865673c4c933979765ec9dab80.svg",
+    "index.html": "/react_purchase_of_goods/index.html",
+    "main.7c93d64d.css.map": "/react_purchase_of_goods/static/css/main.7c93d64d.css.map",
+    "main.bb838939.js.map": "/react_purchase_of_goods/static/js/main.bb838939.js.map",
+    "787.9cb4c75f.chunk.js.map": "/react_purchase_of_goods/static/js/787.9cb4c75f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c93d64d.css",
+    "static/js/main.bb838939.js"
+  ]
+}
